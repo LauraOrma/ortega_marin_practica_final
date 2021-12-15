@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Laura Ortega | Contact</title>
+    <meta name="viewport"
+          content="width=device-width">
+    <meta name="description" content="Are you interested in my work? Contact me without obligation">
+    <meta name="author" content="Laura Ortega Marín">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="shortcut icon" href="images/mp.png" type="image/png"/>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header id="navbar-header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <!-- Skip to content-->
+            <div class="skip-to-content">
+                <span>Skip to <a href="#main">content</a> or <a href="#footer">footer</a></span>
+            </div>
+
+            <!-- Navbar brand-->
+            <a title="Go to home page" class="navbar-brand" href="index.html">
+                <img src="images/logo.svg" alt="Logo of Laura Ortega's portfolio">
+                My Portfolio
+            </a>
+
+            <!-- Dark mode mobile button-->
+            <div class="navbar-dark-mode d-lg-none">
+                <button class="color-mode nav-link" type="button">
+                    <span id="color-mode-icon-mobile" class="ico-moon"></span>
+                </button>
+            </div>
+
+            <input class="d-lg-none menu-btn" type="checkbox" id="menu-btn"/>
+            <label class="d-lg-none menu-icon" for="menu-btn"><span id="icon-toggle" class="icon-menu"></span></label>
+
+            <!-- Lista de navegación -->
+            <ul class="menu">
+                <li>
+                    <a title="Go to home Page" class="nav-link" aria-current="page" href="index.html">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a title="Go to Portfolio Page" class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a title="Go to Contact Page" class="nav-link active" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Dark mode desktop button-->
+            <div class="navbar-dark-mode d-none d-lg-flex">
+                <button class="color-mode nav-link" type="button"><span id="color-mode-icon" class="ico-moon"></span>Color
+                    mode
+                </button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="contact-page" id="main">
+    <header class="cabecera-page">
+        <div class="container">
+            <div class="cabecera-page__title">
+                <h1><span class="cabecera-page__title-background">Contact</span></h1>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <section class="col-12 col-lg-5">
+                <div class="contact-page__google-maps">
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188">
+                        </iframe>
+                    </div>
+                    <div class="contact-info">
+                        <h2>Say hello</h2>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-7 col-xl-8">
+                                <div class="contact-links">
+                                    <a title="Call me" href="tel:0100200960"><span class="ico-phone"></span> 010 020
+                                        0960</a>
+                                    <a title="Send me an e-mail" href="mailto:hello@company.co"><span
+                                            class="ico-envelope-email"></span> hello@company.co</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-5 col-xl-4">
+                                <div class="media-links">
+                                    <a target="_blank" title="Go to my Dribbble Profile" href="https://dribbble.com/">
+                                        <span class="ico-dribbble"></span>Dribble
+                                    </a>
+                                    <a target="_blank" title="Go to my Instagram Profile"
+                                       href="https://www.instagram.com/">
+                                        <span class="ico-instagram"></span>Instagram
+                                    </a>
+                                    <a target="_blank" title="Go to my Youtube Profile" href="https://www.youtube.com/">
+                                        <span class="ico-youtube"></span>Youtube
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="col-12 col-lg-7">
+                <div class="contact-page__form">
+                    <h2>Interested to work together? Let's talk</h2>
+                    <form id="formulario">
+                        <div class="inputGrp">
+                            <div class="formGroup">
+                                <label class="label-form" for="name">Your name <abbr title="This">*</abbr></label>
+                                <input class="form-control" type="text" name="name" id="name" required>
+                            </div>
+                            <div class="formGroup">
+                                <label class="label-form" for="email">Your email <abbr title="Este campo es obligatorio">*</abbr></label>
+                                <input class="form-control" type="email" name="email" id="email" required>
+                            </div>
+                            <div class="formGroup">
+                                <label class="label-form" for="phone">Your phone <abbr title="Este campo es obligatorio">*</abbr></label>
+                                <input class="form-control" type="tel" name="phone" id="phone" required>
+                            </div>
+                            <div class="formGroup">
+                                <label class="label-form" for="message">Write something <abbr title="Este campo es obligatorio">*</abbr></label>
+                                <textarea class="form-control" name="message" id="message"
+                                          required></textarea>
+                            </div>
+                        </div>
+
+                        <span id="errorMessageCheck"></span>
+                        <input type="checkbox" name="legal" id="legal" required>
+                        <label id="checkLabel" for="legal">I have read and accept the <a href="#"
+                                                                                         title="Go to Terms and conditions page">Terms
+                            and conditions</a></label>
+
+                        <button type="submit" class="btn btn-green">Send</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+
+<footer id="footer">
+    <div class="container">
+        <p>Copyright © 2021 Company Name. All rights reserved</p>
+        <p>Designed by <a href="https://www.facebook.com/tooplate" title="Go to external Facebook Tooplate page"
+                          target="_blank">Toolplate</a>
+        </p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
